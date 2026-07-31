@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5777E22F74A4530055D0F9 /* Sinfonia4YouWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EA5777D82F74A4510055D0F9 /* Sinfonia4YouWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5777E02F74A4530055D0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F4DF32F65A48F00CF4D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5777D72F74A4510055D0F9;
+			remoteInfo = "Sinfonia4YouWatch Watch App";
+		};
+		EA8F4E092F65A49000CF4D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F4DF32F65A48F00CF4D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8F4DFA2F65A48F00CF4D31;
+			remoteInfo = Sinfonia4You;
+		};
+		EA8F4E132F65A49000CF4D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8F4DF32F65A48F00CF4D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8F4DFA2F65A48F00CF4D31;
+			remoteInfo = Sinfonia4You;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA5777E62F74A4530055D0F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EA5777E22F74A4530055D0F9 /* Sinfonia4YouWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA5777D82F74A4510055D0F9 /* Sinfonia4YouWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sinfonia4YouWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8F4DFB2F65A48F00CF4D31 /* Sinfonia4You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sinfonia4You.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8F4E082F65A49000CF4D31 /* Sinfonia4YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sinfonia4YouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8F4E122F65A49000CF4D31 /* Sinfonia4YouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sinfonia4YouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EA5777D92F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sinfonia4YouWatch Watch App";
+			sourceTree = "<group>";
+		};
+		EA8F4DFD2F65A48F00CF4D31 /* Sinfonia4You */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sinfonia4You;
+			sourceTree = "<group>";
+		};
+		EA8F4E0B2F65A49000CF4D31 /* Sinfonia4YouTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sinfonia4YouTests;
+			sourceTree = "<group>";
+		};
+		EA8F4E152F65A49000CF4D31 /* Sinfonia4YouUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sinfonia4YouUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5777D52F74A4510055D0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4DF82F65A48F00CF4D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E052F65A49000CF4D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E0F2F65A49000CF4D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8F4DF22F65A48F00CF4D31 = {
+			isa = PBXGroup;
+			children = (
+				EA8F4DFD2F65A48F00CF4D31 /* Sinfonia4You */,
+				EA8F4E0B2F65A49000CF4D31 /* Sinfonia4YouTests */,
+				EA8F4E152F65A49000CF4D31 /* Sinfonia4YouUITests */,
+				EA5777D92F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */,
+				EA8F4DFC2F65A48F00CF4D31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8F4DFC2F65A48F00CF4D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8F4DFB2F65A48F00CF4D31 /* Sinfonia4You.app */,
+				EA8F4E082F65A49000CF4D31 /* Sinfonia4YouTests.xctest */,
+				EA8F4E122F65A49000CF4D31 /* Sinfonia4YouUITests.xctest */,
+				EA5777D82F74A4510055D0F9 /* Sinfonia4YouWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5777D72F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5777E32F74A4530055D0F9 /* Build configuration list for PBXNativeTarget "Sinfonia4YouWatch Watch App" */;
+			buildPhases = (
+				EA5777D42F74A4510055D0F9 /* Sources */,
+				EA5777D52F74A4510055D0F9 /* Frameworks */,
+				EA5777D62F74A4510055D0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EA5777D92F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */,
+			);
+			name = "Sinfonia4YouWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Sinfonia4YouWatch Watch App";
+			productReference = EA5777D82F74A4510055D0F9 /* Sinfonia4YouWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8F4DFA2F65A48F00CF4D31 /* Sinfonia4You */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8F4E1C2F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4You" */;
+			buildPhases = (
+				EA8F4DF72F65A48F00CF4D31 /* Sources */,
+				EA8F4DF82F65A48F00CF4D31 /* Frameworks */,
+				EA8F4DF92F65A48F00CF4D31 /* Resources */,
+				EA5777E62F74A4530055D0F9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5777E12F74A4530055D0F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA8F4DFD2F65A48F00CF4D31 /* Sinfonia4You */,
+			);
+			name = Sinfonia4You;
+			packageProductDependencies = (
+			);
+			productName = Sinfonia4You;
+			productReference = EA8F4DFB2F65A48F00CF4D31 /* Sinfonia4You.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8F4E072F65A49000CF4D31 /* Sinfonia4YouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8F4E1F2F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4YouTests" */;
+			buildPhases = (
+				EA8F4E042F65A49000CF4D31 /* Sources */,
+				EA8F4E052F65A49000CF4D31 /* Frameworks */,
+				EA8F4E062F65A49000CF4D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8F4E0A2F65A49000CF4D31 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA8F4E0B2F65A49000CF4D31 /* Sinfonia4YouTests */,
+			);
+			name = Sinfonia4YouTests;
+			packageProductDependencies = (
+			);
+			productName = Sinfonia4YouTests;
+			productReference = EA8F4E082F65A49000CF4D31 /* Sinfonia4YouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA8F4E112F65A49000CF4D31 /* Sinfonia4YouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8F4E222F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4YouUITests" */;
+			buildPhases = (
+				EA8F4E0E2F65A49000CF4D31 /* Sources */,
+				EA8F4E0F2F65A49000CF4D31 /* Frameworks */,
+				EA8F4E102F65A49000CF4D31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8F4E142F65A49000CF4D31 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA8F4E152F65A49000CF4D31 /* Sinfonia4YouUITests */,
+			);
+			name = Sinfonia4YouUITests;
+			packageProductDependencies = (
+			);
+			productName = Sinfonia4YouUITests;
+			productReference = EA8F4E122F65A49000CF4D31 /* Sinfonia4YouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8F4DF32F65A48F00CF4D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					EA5777D72F74A4510055D0F9 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					EA8F4DFA2F65A48F00CF4D31 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					EA8F4E072F65A49000CF4D31 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = EA8F4DFA2F65A48F00CF4D31;
+					};
+					EA8F4E112F65A49000CF4D31 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = EA8F4DFA2F65A48F00CF4D31;
+					};
+				};
+			};
+			buildConfigurationList = EA8F4DF62F65A48F00CF4D31 /* Build configuration list for PBXProject "Sinfonia4You" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8F4DF22F65A48F00CF4D31;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA8F4DFC2F65A48F00CF4D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8F4DFA2F65A48F00CF4D31 /* Sinfonia4You */,
+				EA8F4E072F65A49000CF4D31 /* Sinfonia4YouTests */,
+				EA8F4E112F65A49000CF4D31 /* Sinfonia4YouUITests */,
+				EA5777D72F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5777D62F74A4510055D0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4DF92F65A48F00CF4D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E062F65A49000CF4D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E102F65A49000CF4D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5777D42F74A4510055D0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4DF72F65A48F00CF4D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E042F65A49000CF4D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8F4E0E2F65A49000CF4D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5777E12F74A4530055D0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5777D72F74A4510055D0F9 /* Sinfonia4YouWatch Watch App */;
+			targetProxy = EA5777E02F74A4530055D0F9 /* PBXContainerItemProxy */;
+		};
+		EA8F4E0A2F65A49000CF4D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8F4DFA2F65A48F00CF4D31 /* Sinfonia4You */;
+			targetProxy = EA8F4E092F65A49000CF4D31 /* PBXContainerItemProxy */;
+		};
+		EA8F4E142F65A49000CF4D31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8F4DFA2F65A48F00CF4D31 /* Sinfonia4You */;
+			targetProxy = EA8F4E132F65A49000CF4D31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA5777E42F74A4530055D0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sinfonia4YouWatch;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usiamo il microfono dell'Apple Watch per registrare rapidamente gli eventi di gara.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nicola.Sinfonia4You;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4You.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		EA5777E52F74A4530055D0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sinfonia4YouWatch;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Usiamo il microfono dell'Apple Watch per registrare rapidamente gli eventi di gara.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = nicola.Sinfonia4You;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4You.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		EA8F4E1A2F65A49000CF4D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8F4E1B2F65A49000CF4D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8F4E1D2F65A49000CF4D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Usiamo la fotocamera per acquisire e scansionare le distinte delle squadre durante il Rapporto Gara.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usiamo Face ID per permetterti di accedere in modo rapido e sicuro a Sinfonia4You.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usiamo la libreria Foto per importare le distinte delle squadre nel Rapporto Gara.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Usiamo il riconoscimento vocale su iPhone per trascrivere rapidamente gli eventi dettati da Apple Watch.";
+				INFOPLIST_KEY_SINFONIA_API_BACKUP_URLS = "http://127.0.0.1:8000,http://localhost:8000";
+				INFOPLIST_KEY_SINFONIA_API_BASE_URL = "$(SINFONIA_API_BASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4You;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8F4E1E2F65A49000CF4D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Usiamo la fotocamera per acquisire e scansionare le distinte delle squadre durante il Rapporto Gara.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usiamo Face ID per permetterti di accedere in modo rapido e sicuro a Sinfonia4You.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Usiamo la libreria Foto per importare le distinte delle squadre nel Rapporto Gara.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Usiamo il riconoscimento vocale su iPhone per trascrivere rapidamente gli eventi dettati da Apple Watch.";
+				INFOPLIST_KEY_SINFONIA_API_BACKUP_URLS = "";
+				INFOPLIST_KEY_SINFONIA_API_BASE_URL = "$(SINFONIA_API_BASE_URL)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=*]" = 18.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 18.6.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4You;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA8F4E202F65A49000CF4D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4YouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinfonia4You.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sinfonia4You";
+			};
+			name = Debug;
+		};
+		EA8F4E212F65A49000CF4D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4YouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinfonia4You.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sinfonia4You";
+			};
+			name = Release;
+		};
+		EA8F4E232F65A49000CF4D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4YouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sinfonia4You;
+			};
+			name = Debug;
+		};
+		EA8F4E242F65A49000CF4D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8KD45P65X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nicola.Sinfonia4YouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sinfonia4You;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5777E32F74A4530055D0F9 /* Build configuration list for PBXNativeTarget "Sinfonia4YouWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5777E42F74A4530055D0F9 /* Debug */,
+				EA5777E52F74A4530055D0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8F4DF62F65A48F00CF4D31 /* Build configuration list for PBXProject "Sinfonia4You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F4E1A2F65A49000CF4D31 /* Debug */,
+				EA8F4E1B2F65A49000CF4D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8F4E1C2F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4You" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F4E1D2F65A49000CF4D31 /* Debug */,
+				EA8F4E1E2F65A49000CF4D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8F4E1F2F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4YouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F4E202F65A49000CF4D31 /* Debug */,
+				EA8F4E212F65A49000CF4D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8F4E222F65A49000CF4D31 /* Build configuration list for PBXNativeTarget "Sinfonia4YouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8F4E232F65A49000CF4D31 /* Debug */,
+				EA8F4E242F65A49000CF4D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8F4DF32F65A48F00CF4D31 /* Project object */;
+}
